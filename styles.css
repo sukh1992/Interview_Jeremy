@@ -1,0 +1,404 @@
+/* Interview */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: helvetica, Arial, sans-serif;
+	line-height: 1.25;
+	margin: 0;
+	padding: 0;
+	background color: white;
+	color: 101131;
+	background-image: url("https://cdn.pixabay.com/photo/2016/07/22/16/29/fog-1535201_960_720.jpg");
+	background-size: cover;
+
+}
+
+
+header {
+	padding: 0.25em;
+	margin: 0 auto;
+}
+main {
+	padding: 2em 0.25em;
+	perspective: 100em;
+  perspective-origin: top;
+}
+section {
+	max-width: 40em;
+	margin: 0px auto;
+	padding: 1em 0;
+	transition: all 0.5s ease;
+}
+
+section:nth-child(1) {
+	transform: rotateY(0deg) rotateX(22deg) scale(0.75) translateX(18em);
+}
+section:nth-child(2) {
+	transform: rotateY(0deg) rotateX(22deg) scale(0.75) translateX(-12em);
+}
+section:nth-child(3) {
+	transform: rotateY(0deg) rotateX(22deg) scale(0.75) translateX(18em);
+}
+section:nth-child(4) {
+	transform: rotateY(0deg) rotateX(22deg) scale(0.75) translateX(-12em);
+}
+section:nth-child(5) {
+	transform: rotateY(0deg) rotateX(22deg) scale(0.75) translateX(18em);
+}
+section:nth-child(6) {
+	transform: rotateY(0deg) rotateX(22deg) scale(0.75) translateX(-12em);
+}
+
+
+h1 {
+	font-size: 2em;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	line-height: 0.85;
+	font-weight: 400;
+	word-spacing: 100vw;
+	color: green;
+}
+h2 {
+	color: #5a4fff;
+	display: inline;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-size: 1em;
+}
+h3 {
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	color: white;
+	font-weight: 400;
+	text-transform: uppercase;
+	position: relative;
+	top: 30%;
+}
+p {
+	margin: 0 0 1em 0;
+	font-size: 20px;
+	position: relative;
+	top: 30%;
+}
+
+}
+article{
+	margin-bottom: 2em;
+    padding-bottom: 5em;
+    border-bottom: 2px dotted;
+}
+
+.flip-box-01{
+  			background-color: transparent;
+  			width: 800px;
+			height: 100px;
+			border: 0px solid #f1f1f1;
+			perspective: 1000px;
+			border-radius: 10px;
+  }
+
+  .flip-box-inner-01 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 58px;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    border-radius: 10px;
+}
+
+.flip-box-01:hover .flip-box-inner-01 {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front-01, .flip-box-back-01 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 10px;
+  }
+
+  .flip-box-front-01 {
+  background-color: #bbb;
+  color: black;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #03a9f4, #f441a5);
+
+}
+
+.flip-box-back-01 {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+  border-radius: 10px;
+}
+
+
+
+
+
+
+.flip-box-02{
+  			background-color: transparent;
+  			width: 800px;
+			height: 100px;
+			border: 0px solid #f1f1f1;
+			perspective: 1000px;
+			border-radius: 10px;
+  }
+
+  .flip-box-inner-02 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 58px;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    border-radius: 10px;
+}
+
+.flip-box-02:hover .flip-box-inner-02 {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front-02, .flip-box-back-02 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 10px;
+  }
+
+  .flip-box-front-02 {
+  background-color: #bbb;
+  color: black;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #03a9f4, #f441a5);
+
+}
+
+.flip-box-back-02 {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+  border-radius: 10px;
+}
+
+
+
+
+
+.flip-box-03{
+  			background-color: transparent;
+  			width: 800px;
+			height: 100px;
+			border: 0px solid #f1f1f1;
+			perspective: 1000px;
+			border-radius: 10px;
+  }
+
+  .flip-box-inner-03 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 58px;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    border-radius: 10px;
+}
+
+.flip-box-03:hover .flip-box-inner-03 {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front-03, .flip-box-back-03 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 10px;
+  }
+
+  .flip-box-front-03 {
+  background-color: #bbb;
+  color: black;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #03a9f4, #f441a5);
+
+}
+
+.flip-box-back-03 {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+  border-radius: 10px;
+}
+
+
+
+
+
+
+
+.flip-box-04{
+  			background-color: transparent;
+  			width: 800px;
+			height: 100px;
+			border: 0px solid #f1f1f1;
+			perspective: 1000px;
+			border-radius: 10px;
+  }
+
+  .flip-box-inner-04 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 58px;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    border-radius: 10px;
+}
+
+.flip-box-04:hover .flip-box-inner-04 {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front-04, .flip-box-back-04 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 10px;
+  }
+
+  .flip-box-front-04 {
+  background-color: #bbb;
+  color: black;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #03a9f4, #f441a5);
+
+}
+
+.flip-box-back-04 {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+  border-radius: 10px;
+}
+
+
+
+
+
+
+.flip-box-05{
+  			background-color: transparent;
+  			width: 800px;
+			height: 100px;
+			border: 0px solid #f1f1f1;
+			perspective: 1000px;
+			border-radius: 10px;
+  }
+
+  .flip-box-inner-05 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 58px;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    border-radius: 10px;
+}
+
+.flip-box-05:hover .flip-box-inner-05 {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front-05, .flip-box-back-05 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 10px;
+  }
+
+  .flip-box-front-05 {
+  background-color: #bbb;
+  color: black;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #03a9f4, #f441a5);
+
+}
+
+.flip-box-back-05 {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+  border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+.flip-box-06{
+  			background-color: transparent;
+  			width: 800px;
+			height: 100px;
+			border: 0px solid #f1f1f1;
+			perspective: 1000px;
+			border-radius: 10px;
+  }
+
+  .flip-box-inner-06 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 58px;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    border-radius: 10px;
+}
+
+.flip-box-06:hover .flip-box-inner-06 {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front-06, .flip-box-back-06 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 10px;
+  }
+
+  .flip-box-front-06 {
+  background-color: #bbb;
+  color: black;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #03a9f4, #f441a5);
+
+}
+
+.flip-box-back-06 {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+  border-radius: 10px;
+}
